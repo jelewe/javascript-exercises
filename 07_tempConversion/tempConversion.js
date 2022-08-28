@@ -6,8 +6,10 @@ const ftoc = function(temperature) {
   return result;
 };
 
-const ctof = function() {
-
+const ctof = function(temparature) {
+  let F = 0;
+  F = (temparature * (9 / 5)) + 32;
+  return F;
 };
 
 // Do not edit below this line
