@@ -23,8 +23,13 @@ const sum = function(array) {
  return sum;
 };
 
-const multiply = function() {
-
+const multiply = function(array) {
+  let product = 1;
+  for (i=0; i < array.length; i++) {
+    let multiplier = array[i];
+    product *= multiplier;
+  }
+return product;
 };
 
 const power = function() {
