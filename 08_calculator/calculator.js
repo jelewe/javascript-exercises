@@ -15,7 +15,7 @@ const sum = function(array) {
     } else if (array.length === 1) {
       return array[0];
     } else {
-      for(i = 0; i <= array.length; i++) {
+      for(i = 0; i < array.length; i++) {
       let addend = array[i];
       sum += addend;
       }
